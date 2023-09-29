@@ -1,6 +1,54 @@
 body {
-    background-color: rgb(192,192,192)
+    background-color: rgb(192,192,192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.headtext {
+    font-size: 36px;
+}
+.spacing {
+    letter-spacing: 0.2em;
 }
 table {
-    border-style: solid;
+    box-shadow: 0 0 10px #777777;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #777777;
+    table-layout: fixed;
+}
+td,th {
+    padding:24px;
+    border: 0.2px #777777;
+    border-style: ridge;
+}
+ul {
+    list-style-type: none;
+    padding:0px; 
+    font-size: 24px;
+}
+li {
+    padding-bottom: 20px;
+}
+li > span {
+    padding-left: 400px;
+    font-size: 24px;
+}
+.date {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.frontend {
+    color: grey;
+    font-size: 24px;
+}
+b {
+    font-size: 36px;
+}
+.workplace {
+    font-style: italic;
 }
