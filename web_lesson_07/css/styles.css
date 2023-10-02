@@ -1,0 +1,90 @@
+h3 {
+    color: navy;
+}
+.dasgal2 {
+    color: #fb7d9e;
+}
+.dasgal3 {
+    color: rgb(128,0,128);
+}
+.dasgal4Div1 {
+    height:300px;
+    width:400px;
+    background-color: blue;
+}
+.dasgal4Div2 {
+    height: 50px;
+    width: 150px;
+    background-color: rgba(227,61,148,0.5);
+}
+.dasgal5Div {
+    background-color: orangered;
+}
+.text {
+    background-color: darkblue;
+    color: white;
+}
+.color1 {
+    background-color: rgba(59,58,204,0.8);
+}
+.color2 {
+    background-color: rgba(147,197,199,0.3);
+}
+.color3 {
+    background-color: rgba(219,107,148,0.5);
+}
+.dasgal6 {
+    height: 200px;
+    width: 200px;
+}
+table {
+    table-layout: fixed;
+}
+.table1 {
+    background-color: rgba(59,58,204,0.8);
+}
+.table2 {
+    background-color: rgba(147,197,199,0.3);
+}
+.table3 {
+    background-color: rgba(219,107,148,0.5);
+}
+.dasgal8Div {
+    background-color:rgba(147,197,199,0.3)
+}
+img {
+    height: 350px;
+    width: 500px;
+}
+.dasgal9Div {
+    background-color: #e3cfe2;
+}
+.text1 {
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255,255,255);
+}
+.dasgal10Div {
+    background-color: #3e8c72;
+}
+.dasgal10Div1 {
+    height: 100px;
+    width:100px;
+    background-color:#bbb;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.dasgal10Div2 {
+    height: 250px;
+    width: 250px;
+    background-color: #dedb90;
+    margin-bottom:20px;
+}
+.dasgal10Div3 {
+    background-color: #947f65;
+}
+.text10 {
+    color: #fb7d9e;
+    padding: 20px;
+}
