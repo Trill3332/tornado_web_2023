@@ -1,0 +1,90 @@
+#text1 {
+    font-weight: bold;
+}
+#earl {
+    font-style: italic;
+}
+.text2 {
+    text-transform: uppercase;
+}
+.text3 {
+    text-transform: capitalize;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0);
+}
+.dashed {
+    text-decoration: line-through;
+    font-size: 24px;
+}
+.underline {
+    text-decoration: underline;
+    font-size: 24px;
+}
+#list2 li {
+    font-size: 24px;
+}
+a {
+    color: rgb(104,124,232);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0,0,0);
+}
+.text4 {
+    text-transform: capitalize;
+    font-size: 24px;
+}
+#text5 {
+    font-size: 24px;
+}
+#latin {
+    font-weight: bold;
+}
+#lorem {
+    text-decoration: line-through;
+}
+#rep {
+    font-style: italic;
+}
+#humour {
+    text-decoration: underline;
+}
+#words {
+    text-decoration: line-through;
+    color: grey;
+}
+#text6:hover {
+    color:  #9fe1e3;
+    font-size: 36px;
+    border: 2px dotted blue;
+}
+.buttonFirst {
+    background-color: #d9bce3;
+    color: #4dc94b;
+    border: 4px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.buttonFirst:focus {
+    color: rgb(0,0,0);
+    border:7px;
+    background-color: #d3e8b0;
+}
+.buttonSecond {
+    background-color: #99091a;
+    color: #964B00;
+    border: 1px dotted rgb(0,0,0);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+.buttonSecond:active {
+    color: #fcfbfc;
+    background-color: #fa8072;
+    border-radius: 50%;
+    border: 1px rgb(104,124,232);
+}
