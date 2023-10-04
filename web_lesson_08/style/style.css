@@ -1,0 +1,47 @@
+.ex2Div {
+    position: relative;
+    width: 600px;
+    height: 300px;
+}
+.ex2ImgDiv {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    background-color: yellow;
+    font-size: 24px;
+    padding: 12px;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+a:hover {
+    color: rgb(0,0,0,0.3);
+}
+.clear {
+    clear: left;
+}
+.ex5Wrapper {
+    position:relative;
+}
+.ex5Div1 {
+    height: 250px;
+    width: 250px;
+    background-color: skyblue;
+    z-index: -1;
+    position: absolute;
+
+}
+.ex5Div2 {
+    height: 250px;
+    width: 250px;
+    background-color: orangered;
+    z-index: 1;
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
