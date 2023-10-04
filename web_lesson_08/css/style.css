@@ -32,10 +32,10 @@ a:hover {
     height: 250px;
     width: 250px;
     background-color: skyblue;
-    z-index: -1;
-    position: absolute;
-
+    position: relative;
 }
+
+
 .ex5Div2 {
     height: 250px;
     width: 250px;
@@ -44,4 +44,34 @@ a:hover {
     position: absolute;
     left: 65px;
     top: 65px;
+}
+.ex6 {
+    margin-top: 80px;
+}
+.container {
+    border: 3px solid ;
+    background-color: grey;
+    padding: 10px;
+}
+.ex6Block {
+    padding: 10px;
+    border: 0.2px solid;
+    color: #efefef;
+}
+.ex6Span {
+    border: 0.2px solid;
+    color: #efefef;
+}
+.ex7Block {
+    background-color: deepskyblue;
+    color: #efefef;
+    padding: 5px;
+    margin-top: 5px;
+}
+.ex7Span {
+    background-color: red;
+    color: #efefef;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top:5px;
 }
