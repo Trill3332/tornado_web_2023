@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('fonts/Heebo-Regular.ttf');
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-Regular.ttf');
+}
+img {
+    height: 960px;
+    width: 450px;
+}
+#page {
+    position: relative;
+    font-family: Heebo, Georgia,serif;
+}
+.textContainer {
+    position: absolute;
+    left: 470px;
+    top: 0;
+}
+.headText {
+    font-size: 48px;
+}
+.textOne {
+    width: 400px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.bodyTextContainer {
+    width: 600px;
+}
+.bodyText1of2 {
+    width: 250px;
+    float:left;
+    text-align: left;
+}
+.bodyText2of2 {
+    width: 250px;
+    float: right;
+    text-align: left;
+    position: absolute;
+    left: 310px;
+}
+.quoteText {
+    font-weight: bold;
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+.letterL {
+    position: absolute;
+    font-size: 45px;
+    top: 245px;
+}
+.loremText {
+    position: relative;
+    left: 30px;
+}
