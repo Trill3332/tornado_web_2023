@@ -75,3 +75,38 @@ a:hover {
     margin-right: 5px;
     margin-top:5px;
 }
+.ex7Div {
+    position: relative;
+}
+.ex7StackingDiv {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    color: #efefef;
+    font-size: 20px;
+    background-color: green;
+}
+.ex9Div {
+    background-color: blue;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    position: relative;
+}
+.ex9bodyDiv {
+    background-color: gray;
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    right: 200px;
+}
+.ex9text {
+    font-size: 22px;
+}
+@media screen and (max-width:400px) {
+    .responsiveText {
+        color: #efefef;
+        background-color: rgb(0,0,0,0.3);
+        font-size: 24px;
+    }
+}
