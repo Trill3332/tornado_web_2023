@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    background-color:#2d545e;
+}
+h1 {
+    color: #efefef;
+    text-shadow: 2px 2px 4px #000000;
+}
+.main {
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   flex-direction: column;
+   align-items: center;
+}
+.one {
+   background-color:  #FAF3F0;
+   border:none;
+   border-radius:10px;
+   width:700px;
+   height:475px;
+}
+.container {
+    display: flex;
+    gap:10px;
+    padding-left:75px;
+}
+.bottomContainer {
+    padding-left: 75px;
+}
+.container div {
+    width:300px;
+}
+.box input,
+.thirdBox input {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius:5px;
+}
+p {
+    color: #352F44;
+    font-size: 13px;
+}
+.gender {
+    display:flex;
+    gap:20px;
+}
+.btn {
+    width: 550px;
+    background-color: #352F44;
+    text-align: center;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border-style: none;
+}
+.btn input {
+    border-style: none;
+    background-color: transparent;
+    color: #efefef;
+    font-size: 24px;
+    padding:10px;
+    cursor: pointer;
+}
+.two {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0,0,0);
+    width: 700px;
+    height: 475px;
+    position: relative;
+}
+.secondContent {
+    position: relative;
+    border: none;
+    border-radius:10px;
+    background-color:white;
+    bottom:28px;
+}
+img {
+    border:none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:450px;
+    position: absolute;
+}
+.secondBox {
+    position:relative;
+    bottom:0px;
+    left: 350px;
+    text-align: center;
+    height: 450px;
+    top: 50px;
+}
+.welcomeText {
+    width:250px;
+    font-weight: bold;
+    font-size:16px;
+    margin-bottom:100px;
+}
+.iCodeHeader {
+    font-size: 48px;
+    position: relative;
+    right: 200px;
+}
+.inputBtn {
+    width:200px;
+    position: relative;
+    bottom: 85px;
+}
+.inputBtn input {
+    width: 250px;
+    margin-top: 20px;
+    border:none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-size:20px;
+    padding: 10px;
+}
+.signBtn {
+    position: absolute;
+    top: 370px;
+    left: 500px;
+}
+.signBtn button {
+    border:3px solid;
+    background-color: black;
+    color: white;
+    padding:0px;
+    height: 50px;
+    width:100px;
+    cursor: pointer;
+}
+.three {
+   border:none;
+   border-radius:10px;
+   width:700px;
+   height:auto;
+   background-color: blue;
+}
+.thirdContent {
+    border: none;
+    border-radius:10px;
+    background-color:#ffffff;
+    padding:5px;
+}
+.thirdBox {
+    display: flex;
+}
+.thirdBox p,
+.thirdContent h2,
+.detailsText,
+.identityText {
+    padding-left:10px;
+}
+.thirdContent h2,
+.detailsText {
+    margin-top: 0;
+}
+.detailsText,
+.identityText {
+    color:#757575;
+    font-size:20px;
+}
+.identityText {
+    margin-top: 30px;
+}
+.nextBtn {
+    position: relative;
+    right: 460px;
+    margin-top:10px;
+    width: 225px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
