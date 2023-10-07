@@ -1,8 +1,126 @@
 table {
     width: 700px;
+    background-color: #FBFFDC;
 }
 td , th {
     padding-bottom: 7px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0 auto;
+}
+td {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.three {
+    width:700px;
+    background-color: #efefef;
+    empty-cells: show;
+    border: 0.5px solid;
+}
+.three th {
+    padding: 5px;
+    border-bottom: 2px solid #AAC8A7;
+    border-top: 1px solid #C3EDC0;
+}
+.three td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+.name {
+    text-align: left;
+}
+.four {
+    background-color: transparent;
+    text-align: center;
+}
+.four th {
+    border-bottom:2px solid #F7C8E0;
+    border-top:1px solid #FFDEB4
+}
+.four td {
+    border-bottom:1px solid #FFDEB4;
+}
+.oddFour {
+    background-color: #FAF3F0;
+}
+.evenFour {
+    background-color: #F8E8EE;
+}
+.five {
+    background-color: transparent;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing:0;
+    overflow:hidden;
+    box-shadow: 0px 0px 5px 5px rgb(0,0,0,0.15);
+}
+.head {
+    background-color:#009879;
+    color: white;
+    font-weight: bold;
+}
+td {
+    padding: 12px 15px;
+}
+.five tr {
+    border-bottom: 1px solid #dddddd;
+}
+.fiveEven td {
+    background-color: #f3f3f3;
+    font-weight: bold;
+    color: #009879;
+}
+.fiveLast td {
+    border-bottom: 2px solid #009879;
+}
+.six {
+    background-color: darkcyan;
+    empty-cells: hidden;
+    width: 350px;
+}
+.six td {
+    border:1px solid #a9dd00;
+    padding:15px;
+    width: 25px;
+}
+.seven {
+    background-color: #009879;
+    width: 350px;
+}
+.seven td {
+    border: 1px solid #AAC8A7;
+    padding: 15px;
+    width: 25px;
+}
+.seven td:hover {
+    background-color: #dddddd;
+}
+.eight {
+    border-spacing:15px;
+    background-color: transparent;
+    width:350px;
+}
+.eightImg img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    width:100px;
+    height:150px;
+}
+.eight td {
+    background-color: #F7C8E0;
+    border: 2px solid #f31559;
+    border-radius:10px;
+}
+.nine {
+    border-collapse:collapse;
+    width:350px;
+    background-color: transparent;
+}
+.ten {
+    border-collapse:separate;
+    width: 350px;
+    background-color: transparent;
 }
