@@ -1,0 +1,38 @@
+.content {
+    margin: 0 auto;
+    width: 400px;
+    padding-top:200px;
+}
+.box {
+    width:400px;
+    height:250px;
+    background-color: #DD3E1B;
+    position: relative;
+}
+.lid {
+    width: 400px;
+    height: 70px;
+    background-color: #C91E14;
+    position: relative;
+}
+.box span,
+.lid span {
+    background-color: rgba(214, 216, 20,0.8);
+    position: absolute;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.box span:first-child {
+    width: 400px;
+    height: 60px;
+    top: 80px;
+}
+.box span:last-child {
+    width: 60px;
+    height: 250px;
+    left: 160px;
+}
+.lid span {
+    width: 60px;
+    height: 70px;
+    left: 160px;
+}
