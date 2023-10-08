@@ -1,0 +1,124 @@
+@font-face {
+    font-family:'Heebo';
+    src:url('/project/fonts/Heebo-Regular.ttf');
+    font-family:'Oswald';
+    src: url('/project/fonts/Oswald-Regular.ttf');
+}
+body{
+    font-family: Heebo,Oswald,sans-serif;
+}
+#header {
+    height: 100px;
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    flex:1;
+    display:flex;
+
+}
+nav {
+    flex:2;
+
+}
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+}
+.cart {
+    display: flex;
+    justify-content: flex-end;
+
+    flex: 1;
+}
+.threeDots {
+    font-weight: 300;
+    margin-left:7px;
+    font-size: 18px;
+    color: #708090;
+}
+.navLinks li {
+    list-style-type: none;
+}
+.navLinks li a {
+    text-decoration: none;
+    color: #708090;
+}
+#content {
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+}
+.laptop {
+    width: 750px;
+}
+.introDiv {
+    flex:1;
+}
+.laptopImgDiv {
+    flex:1;
+}
+.laptopHeading {
+    color:#49495c;
+    font-size:48px;
+}
+.laptopAds {
+    color:#717099;
+    font-size: 24px;
+}
+.btnDiv {
+    display:flex;
+    gap:30px;
+    padding-top:30px;
+}
+.inchDiv {
+    border:2px solid #ad58a6;
+    width: 150px;
+    text-align: center;
+    padding: 7px;
+    color: #ad58a6;
+    font-family: Oswald,sans-serif;
+}
+.cartAddBtn {
+    border: 2px solid #ad58a6;
+    color: white;
+    background-color: #ad58a6;
+    width: 150px;
+    padding: 7px;
+    cursor: pointer;
+}
+.selectBar {
+    display:flex;
+    gap: 25px;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+    #header {
+        height:80%;
+    }
+    #content {
+        flex-direction: column;
+    }
+    .laptopHeading {
+        font-size:30px;
+        text-align: center;
+    }
+    .laptopAds {
+        font-size: 20px;
+    }
+    .btnDiv {
+        justify-content: center;
+        padding-top: 0;
+    }
+    .inchDiv,
+    .cartAddBtn {
+        padding: 5px;
+    }
+    .laptop {
+        width: 500px;
+    }
+}
