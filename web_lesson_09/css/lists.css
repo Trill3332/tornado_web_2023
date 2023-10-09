@@ -1,0 +1,40 @@
+.one {
+    list-style-type: circle;
+}
+.two {
+    list-style-type: upper-roman;
+}
+.three {
+    list-style-type: upper-alpha;
+}
+.four {
+    list-style-type: square;
+}
+.five {
+    list-style-image: url(/web_lesson_09/imgs/star-alt-icon.png)
+}
+.vegetables li {
+    list-style-type: square;
+}
+.fruit li {
+    list-style-type: circle;
+}
+.dairy li {
+    list-style-type:upper-alpha;
+}
+.recipeText {
+    font-weight: bold;
+    font-size: 24px;
+}
+.stepsList {
+    list-style-type:lower-alpha;
+}
+.ingredientsList {
+    list-style-image: url(/web_lesson_09/imgs/cutlery1.png);
+}
+.eight {
+    list-style-image: url(/web_lesson_09/imgs/check.png);
+}
+.notdid {
+    list-style-type: circle;
+}
