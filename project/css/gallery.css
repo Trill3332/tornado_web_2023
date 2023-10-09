@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'YoungSerif';
+    src: url('/project/fonts/YoungSerif-Regular.ttf');
+    font-family: 'Roboto';
+    src: url('/project/fonts/Roboto-Regular.ttf');
+}
+body {
+    background-color: #232133;
+    font-family: Roboto;
+    color: whitesmoke;
+}
+header {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    width:500px;
+    flex-direction: column;
+    margin:0 auto;
+}
+.bigImg {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+}
+.mediumImg {
+    width:100%;
+    height: 100%;
+}
+.smallImg {
+   width: 50%;
+   height: 50%;
+}
+.midContainer {
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.midContainerOne {
+   width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.midContainerTwo {
+    width: 50%;
+    height: 300px;
+}
+.lastContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.lastContainerTwo {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lastContainerOne {
+    width: 50%;
+}
+footer {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer li {
+    list-style-type: none;
+}
+ul {
+    display:flex;
+    justify-content: center;
+    width: 430px;
+    gap: 20px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
