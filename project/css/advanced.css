@@ -1,0 +1,102 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(/project/fonts/Roboto-Regular.ttf);
+}
+body {
+    background-color: #cccccc;
+}
+.content {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    background-color: #f0f2f4;
+    border: none;
+    box-shadow: 1px -3px 6px 16px rgba(0,0,0,0.41);
+}
+table {
+    margin-bottom:100px;
+}
+img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-right: 50px;
+}
+.title {
+    padding:1px;
+    border-left:0.9px solid;
+    padding-left:25px;
+    position: relative;
+    top: 0px;
+}
+.title h1 {
+    font-size: 48px;
+}
+.icon {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    margin-bottom:14px;
+}
+.contact {
+    position: relative;
+    left:-10px;
+    top:10px;
+    display:flex;
+}
+.contactText {
+    position: relative;
+    top: -15px;
+    padding-left: 18px;
+}
+.blankspace {
+    height: 25px;
+    width: auto;
+    border-left: 1px solid black;
+    position: relative;
+    top: -15px;
+}
+.info {
+    text-align: right;
+    padding-right:25px;
+}
+.intro {
+    width: 400px;
+    border-left:2px solid grey;
+    padding-left:25px;
+}
+.experience {
+    text-align: right;
+    padding-right: 25px;
+    width: 300px;
+}
+.projects {
+    padding-left:25px;
+    width: 400px;
+    border-left:1px solid black;
+    position: relative;
+    top: 30px;
+}
+.frontendTag {
+    font-weight: 500;
+}
+.title p {
+    letter-spacing: 0.1em;
+}
+a {
+    text-decoration: none;
+    color: #93bfb1;
+}
+.middleDotOne {
+    background-color: black;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: -5px;
+}
