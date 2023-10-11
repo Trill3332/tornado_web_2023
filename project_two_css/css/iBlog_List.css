@@ -1,0 +1,152 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(/project_two_css/fonts/Roboto-Regular.ttf);
+}
+.page {
+    width: 1024px;
+    margin: 0 auto;
+}
+header {
+    width: 80%;
+    background-color: #374a57;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: Roboto,Helvetica,sans-serif;
+}
+header h2 {
+    font-size:32px;
+}
+header p {
+    font-size:24px;
+    color: #82a7d1;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+    font-size: 18px;
+}
+header ul a {
+    color:white;
+    text-decoration: none;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+.pinContainer,
+.recentContainter {
+    padding-top:50px;
+}
+.pinPost,
+.recentPost {
+    border-bottom: gray 0.1px solid;
+    color: gray;
+    font-size: 15px;
+}
+h3 {
+    font-size:32px;
+}
+.tagText {
+    color: grey;
+}
+.tagText span {
+    color:skyblue;
+}
+.cssBtn,
+.htmlBtn,
+.jsBtn {
+    height: 20px;
+    width: 50px;
+}
+.cssBtn {
+    background-color: #2ed12e;
+    border: none;
+    color: white;
+}
+.htmlBtn {
+    background-color: #07b6eb;
+    border: none;
+    color: white;
+}
+.pinHeader {
+    display: flex;
+}
+.icon {
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+}
+.pinHeader img {
+    position: relative;
+    top: 25px;
+    left: 352px;
+}
+.recentPost {
+    margin-top:75px;
+}
+.recentHeader {
+    display: flex;
+}
+.recentHeader img {
+    position: relative;
+    left: 135px;
+    top: 25px;
+}
+.jsBtn {
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.uncategorizedBtn {
+    border:none;
+    color:white;
+    width: 110px;
+    background-color: grey;
+}
+.photosHeader {
+    display: flex;
+}
+.photosHeader img {
+    position: relative;
+    top: 25px;
+    left: 298px;
+}
+.photos {
+    display: flex;
+}
+.photos img {
+    width: 395px;
+}
+.photos img:first-child {
+    margin-right:30px;
+}
+.cssConfText {
+    position: relative;
+    top: -20px;
+    color: white;
+    font-size: 18px;
+}
+.jsConfText {
+    position: relative;
+    top: -20px;
+    left: 300px;
+    color: white;
+    font-size: 18px;
+}
+footer {
+    width: 80%;
+    background-color: #374a57;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: Roboto,Helvetica,sans-serif;
+    padding: 30px 0;
+    margin-top: 30px;
+}
