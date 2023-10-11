@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Advanced Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/coffee_shop.css">
+</head>
+<body>
+    <header> <!--Header heseg-->
+        <a href="#" class="iCoffeeHeader">
+            <img src="imgs/coffee_shop/logo1.png" alt="iCoffee Logo" class="logo1">
+            <p class="iCoffeeText">iCoffee Shop</p>
+        </a>
+        <nav> <!--Goliin nav bar -->
+            <a href="#">Home</a>
+            <div class="dropDownMenu">
+                <a href="#">About</a>
+                <i class="fa-solid fa-angle-down dropDown"></i>
+            </div>
+            <div class="dropDownMenu">
+                <a href="#">Blog</a>
+                <i class="fa-solid fa-angle-down dropDown"></i>
+            </div>
+            <div class="dropDownMenu">
+                <a href="#">Shop</a>
+                <i class="fa-solid fa-angle-down dropDown"></i>
+            </div>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="iCoffeeHeaderTwo"> <!--User icon bolon cart icon-->
+            <a href="#">
+                <i class="fa-regular fa-user headIcon"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-cart-shopping headIcon"></i>
+            </a>
+        </div>
+    </header>
+    <div class="intro"> <!--Headeriin dood taliin coffee zurag.CSS background image eer oruulsan bolno-->
+        <div class="introText"><!--Zurgan deer bairlah textuud-->
+            <h1>A cup of coffee for every mood</h1>
+            <p>We dont make coffee.We make your day.</p>
+            <div class="introBtns">
+                <button class="menuBtn">Меню харах</button>
+                <button class="orderBtn">Ширээ захиалах</button>
+            </div>
+        </div>
+    </div>
+    <section> <!--About us aas Services hurtelh heseg-->
+        <h2>About Us</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
+        <div class="about-container"> <!--Zurag bolon textiig flex hiij bui container div-->
+            <div class="aboutImgContainer">
+                <!--CSS Background image eer coffeenii zurgiig oruulav-->
+            </div>
+            <div class="aboutText"> <!--flex hiigdej bui text container-->
+                <h3 class="aboutHead">Coffee the way it was meant to be.</h3>
+                <p class="aboutHeader">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum voluptatibus dolores aspernatur animi perferendis iste!</p>
+                <p class="aboutInfoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus dolores aspernatur animi
+                    perferendis iste! Culpa aut enim debitis optio illum ipsum quis perferendis dolor expedita. Similique
+                    necessitatibus inventore doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    voluptatibus dolores aspernatur animi.</p>
+                <a href="#" class="aboutLink">Contact us</a>
+            </div>
+        </div>
+    </section>
+    <section><!--Our Services ees ehelj bui heseg-->
+        <h2>Our Services</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
+        <div class="services-container"> <!--Buh services hesegt bgaa zurgiig flex hiij bui div-->
+            <div class="service-item"><!--Buh zurag bolon tuunii doodoh text adilhan bolno-->
+                <img src="imgs/coffee_shop/service-1.jpg" alt="Item one">
+                <div class="service-item-text">
+                    <h3>selected coffee beans</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imgs/coffee_shop/service-2.jpg" alt="Item two">
+                <div class="service-item-text">
+                    <h3>own roasting</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imgs/coffee_shop/service-3.jpg" alt="Item three">
+                <div class="service-item-text">
+                    <h3>high quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imgs/coffee_shop/service-4.jpg" alt="Item four">
+                <div class="service-item-text">
+                    <h3>freshly brewed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imgs/coffee_shop/service-5.jpg" alt="Item five">
+                <div class="service-item-text">
+                    <h3>coffee variety</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="imgs/coffee_shop/service-6.jpg" alt="Item six">
+                <div class="service-item-text">
+                    <h3>Excellent grinding</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Our Menu</h2>
+        <div class="menu-btn">
+            <button>Coffee</button>
+            <button>Hot Drinks</button>
+            <button>Desserts</button>
+        </div>
+        <div class="coffee">
+            <div class="menu-item">
+                <div>
+                <h4>Americano </h4>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.</p>
+                </div>
+                <div class="price">
+                    $20
+                </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Cappucino </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                         $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Macchiato </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Mocha </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                    </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Latte </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Glacier </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Black coffee </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>  
+            <div class="menu-item">
+                <div>
+                    <h4>Instant coffee </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <h4>Espresso </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.</p>
+                </div>
+                    <div class="price">
+                        $20
+                    </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
