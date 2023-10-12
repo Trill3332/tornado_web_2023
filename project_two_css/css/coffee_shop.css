@@ -1,0 +1,783 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(/project_two_css/fonts/Roboto-Regular.ttf);
+}
+body {
+    width: 100%;
+    height: auto;
+    background: #F7F7F7;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #603601;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.iCoffeeHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    padding-left:89.5px;
+}
+.logo1 {
+    width: 30.625px;
+    height: 35px;
+    background: lightgray / cover no-repeat;
+}
+.iCoffeeText {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 100% */
+    letter-spacing: 2px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19.51px;
+    align-self: stretch;
+    color: #FFFFFF;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.iCoffeeHeaderTwo {
+    display: flex;
+    padding: 5px 4.25px 5px 5px;
+    gap: 10px;
+    padding-right:89.5px;
+}
+.headIcon {
+    color: #FFF;
+    font-family: Font Awesome 5 Free;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 18px; /* 100% */
+    text-decoration: none;
+}
+.intro {
+    height: 500px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(/project_two_css/imgs/coffee_shop/coffee_background.jpg), lightgray  50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.introText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+}
+.introText h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top:150px;
+}
+.introText p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.introBtns {
+    display: flex;
+    padding: 0px 121.83px 0px 121.84px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7.3px;
+}
+.menuBtn {
+    padding: 11.99px 30px 13.49px 30px;
+    align-items: center;
+    background-color: #C69B7B;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.orderBtn {
+    padding: 11.99px 30px 13.49px 30px;
+    align-items: center;
+    background-color: #603601;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+section {
+    width:80%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    padding: 30px 89.49px;
+}
+.h2 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom:80px;
+}
+.h2::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #603601;
+    display:block;
+    position:relative;
+    top: 80px;
+    left: 710px;
+}
+.h2::after {
+    content: '';
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #603601;
+    display:block;
+    position:relative;
+    top:29px;
+    left: 743px;
+}
+.about-container {
+    width: 100%;
+    display:flex;
+    gap: 0 40px;
+    height: 450px;
+}
+.aboutImgContainer {
+    background: url(/project_two_css/imgs/coffee_shop/about_background.jpg);
+    width: 150%;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.aboutHead {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.aboutHeader {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 150% */
+}
+.aboutInfoText {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px; /* 180% */
+}
+.aboutLink {
+    text-decoration: none;
+    padding: 12px 30.56px 13.48px 30px;
+    background-color: #603601;
+    color: #FFFFFF;
+}
+.services-container {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.service-pic1 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/service-1.png), lightgray 50% / cover no-repeat;
+}
+.service-pic2 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/service-2.png), lightgray 50% / cover no-repeat;
+}
+.service-pic3 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/service-3.png), lightgray 50% / cover no-repeat;
+}
+.service-pic4 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/service-4.png), lightgray 50% / cover no-repeat;
+}
+.service-pic5 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/service-5.png), lightgray 50% / cover no-repeat;
+}
+.service-pic6 {
+    width: 355px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Service-6.png), lightgray 50% / cover no-repeat;
+}
+.service-item {
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.service-item-text {
+    color: #666;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    width: 300px;
+}
+.service-item img {
+    width: 300px;
+}
+.menu-btn {
+    text-align: center;
+}
+.menu-btn button {
+    border-radius: 30px;
+    background: #603601;
+    border: none;
+    padding: 11px 25px 9.75px 25px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    position: relative;
+    top: -15px;
+}
+.coffee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+.coffee h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.coffee p {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.menu-item {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    width: 300px;
+    display: flex;
+}
+.menu-item p {
+    width: 200px;
+}
+.price {
+    color: #C69B7B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 30px;
+    left: 55px;
+}
+.products-container {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.product-item {
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+.product-pic1 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-1\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic2 {
+    width: 260px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-2.png), lightgray 50% / cover no-repeat;
+}
+.product-pic3 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-3\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic4 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-4\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic5 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-5\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic6 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-6\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic7 {
+    width: 261px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-7\ 1.png), lightgray 50% / cover no-repeat;
+}
+.product-pic8 {
+    width: 260px;
+    height: 250px;
+    background: url(/project_two_css/imgs/coffee_shop/Product-8\ 1.png), lightgray 50% / cover no-repeat;
+}
+.produc-item h3 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.rating {
+    color: #C69B7B;
+    text-align: center;
+    font-family: Font Awesome 5 Free;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 14px; /* 100% */
+}
+.product-item p {
+    color: #C69B7B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.product-item p span {
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line:line-through;
+}
+.team-container {
+    width: 100%;
+    display:flex;
+    gap: 35px;
+}
+.team-text {
+    background: #FFF;
+}
+.team-item {
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom:20px;
+    padding-bottom:50px;
+}
+.team-pic1 {
+    background: url(/project_two_css/imgs/coffee_shop/team-1.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    width: 367px;
+    height: 316px;
+}
+.team-pic2 {
+    background: url(/project_two_css/imgs/coffee_shop/team-2.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    width: 367px;
+    height: 316px;
+}
+.team-pic3 {
+    background: url(/project_two_css/imgs/coffee_shop/team-3.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    width: 367px;
+    height: 316px;
+}
+.team-pic4 {
+    background: url(/project_two_css/imgs/coffee_shop/team-4.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    width: 337px;
+    height: 316px;
+}
+.team-text h3 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.team-text p {
+    color: #C69B7B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.social a {
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 1px solid #C69B7B;
+    margin-right: 25px;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 20px;
+    color: #C69B7B;
+    text-align: center;
+    font-family: Font Awesome 5 Brands;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+}
+.blog-pic {
+    background: url(/project_two_css/imgs/coffee_shop/blog-1.jpg), lightgray 50% / cover no-repeat;
+    width: 471px;
+    height: 354px;
+}
+.blog-pic2 {
+    background: url(/project_two_css/imgs/coffee_shop/blog-2.jpg), lightgray 50% / cover no-repeat;
+    width: 471px;
+    height: 354px;
+}
+.blog-pic3 {
+    background: url(/project_two_css/imgs/coffee_shop/blog-3.jpg), lightgray 50% / cover no-repeat;
+    width: 471px;
+    height: 354px;
+}
+.blog-date {
+    opacity: 0.9;
+    background: #C69B7B;
+    position: absolute;
+    width: 60.66px;
+}
+.blog-date p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blog-details h5 {
+    border-radius: 50px;
+    background: #C69B7B;
+    padding:5px;
+    width: 75px;
+    text-align: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blog-content {
+    display: flex;
+}
+.blog-link1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.blog-details p {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.blog-link2 {
+    padding: 12px 30px 13.48px 30px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #603601;
+    text-decoration: none;
+}
+.blog-item {
+    width: 470.33px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    padding:20px;
+}
+.blog-author {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:relative;
+    top: 30px;
+    left: 10px;
+}
+.blog-container {
+    display: flex;
+    gap: 10px;
+}
+.contacts-container {
+    display:flex;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+form {
+    background: #FFF;
+    height: 533.13px;
+    width: 50%;
+}
+.input-group {
+    padding: 12px 5px 13.25px 5px;
+    border-bottom: 1.25px solid #333;
+    background: #FFF;
+}
+input, textarea {
+    padding:10px;
+    outline:0;
+    border: 1px solid;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+form h3 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+form button {
+    padding: 11.99px 30.265px 13.49px 30.465px;
+    background: #603601;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.contact-info {
+    display:flex;
+    padding-top:30px;
+    margin-top:15px;
+    gap: 250px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.infoIcon {
+    color: #C69B7B;
+    font-family: Font Awesome 5 Free;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px; /* 100% */
+}
+.info-item h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.info-item p {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-item {
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #603601;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    padding-bottom:50px;
+}
+#footer-item .iCoffeeHeader {
+    display: flex;
+    width: 216.99px;
+    align-items: center;
+    gap: 10px;
+}
+#footer-item {
+    width: 516.99px;
+    height: 234.92px;
+}
+.footer-container {
+    display: flex;
+    padding: 9.7px 89.49px 0px 89.49px;
+    align-items: flex-start;
+    gap: 200px;
+}
+#footer-item p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+#social {
+    display: flex;
+    width: 516.99px;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+}
+#social a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10.75px 10px 11.25px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    text-decoration: none;
+}
+.footer-social {
+    color: #C69B7B;
+    font-family: Font Awesome 5 Brands;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+.footer-item {
+    display: flex;
+    width: 517.01px;
+    padding: 1px 0px 0.19px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.info {
+    display: flex;
+    width: 517.01px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.links-item {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11.8px;
+}
+.footer-item h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.links-item i,
+.footer-contact-info i {
+    color: #C69B7B;
+    font-family: Font Awesome 5 Free;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; /* 100% */
+}
+.links-item a {
+    display: flex;
+    padding-right: 0px;
+    align-items: center;
+    gap: 10.01px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right:184px;
+}
+.footer-contact-info p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; /* 160% */
+}
+.footer-contact-info i {
+    padding-right:10px;
+}
