@@ -49,7 +49,7 @@
         </div>
     </div>
     <section> <!--About us aas Services hurtelh heseg-->
-        <h2>About Us</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
+        <h2 class="h2">About Us</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
         <div class="about-container"> <!--Zurag bolon textiig flex hiij bui container div-->
             <div class="aboutImgContainer">
                 <!--CSS Background image eer coffeenii zurgiig oruulav-->
@@ -66,10 +66,10 @@
         </div>
     </section>
     <section><!--Our Services ees ehelj bui heseg-->
-        <h2>Our Services</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
+        <h2 class="h2">Our Services</h2> <!--Buh h2  before after pseudo element ashiglan dood taliin zuiliig buteesen-->
         <div class="services-container"> <!--Buh services hesegt bgaa zurgiig flex hiij bui div-->
             <div class="service-item"><!--Buh zurag bolon tuunii doodoh text adilhan bolno-->
-                <img src="imgs/coffee_shop/service-1.jpg" alt="Item one">
+                <div class="service-pic1"></div>
                 <div class="service-item-text">
                     <h3>selected coffee beans</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="service-item">
-                <img src="imgs/coffee_shop/service-2.jpg" alt="Item two">
+                <div class="service-pic2"></div>
                 <div class="service-item-text">
                     <h3>own roasting</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="service-item">
-                <img src="imgs/coffee_shop/service-3.jpg" alt="Item three">
+                <div class="service-pic3"></div>
                 <div class="service-item-text">
                     <h3>high quality</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="service-item">
-                <img src="imgs/coffee_shop/service-4.jpg" alt="Item four">
+                <div class="service-pic4"></div>
                 <div class="service-item-text">
                     <h3>freshly brewed</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -101,7 +101,7 @@
                 </div>
             </div>
             <div class="service-item">
-                <img src="imgs/coffee_shop/service-5.jpg" alt="Item five">
+                <div class="service-pic5"></div>
                 <div class="service-item-text">
                     <h3>coffee variety</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -109,7 +109,7 @@
                 </div>
             </div>
             <div class="service-item">
-                <img src="imgs/coffee_shop/service-6.jpg" alt="Item six">
+                <div class="service-pic6"></div>
                 <div class="service-item-text">
                     <h3>Excellent grinding</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -119,20 +119,20 @@
         </div>
     </section>
     <section>
-        <h2>Our Menu</h2>
-        <div class="menu-btn">
+        <h2 class="h2">Our Menu</h2> <!--Menu hesgees ehelj bui zuils-->
+        <div class="menu-btn"><!--Menunii tovch-->
             <button>Coffee</button>
             <button>Hot Drinks</button>
             <button>Desserts</button>
         </div>
-        <div class="coffee">
-            <div class="menu-item">
+        <div class="coffee"><!--Menun dotorh zuilsiig haruulj bui div-->
+            <div class="menu-item"><!--Menu item bolgonii div-->
                 <div>
                 <h4>Americano </h4>
                 <p>Lorem ipsum dolor sit amet consectetur
                     adipisicing elit.</p>
                 </div>
-                <div class="price">
+                <div class="price"><!--uniig bairshuulj bui div-->
                     $20
                 </div>
             </div>
@@ -219,7 +219,323 @@
         </div>
     </section>
     <section>
-        <h2>Our Products</h2>
+        <h2 class="h2">Our Products</h2><!--Producs ehelj bui heseg-->
+        <div class="products-container"><!--Prodcuts dotor bgaa itemuudig aguulj bui div-->
+            <div class="product-item"><!--Buh item d orj baigaa style iig aguulsan div-->
+                <div class="product-pic1"></div>
+                <h3>Cupcake</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic2"></div>
+                <h3>Cappucino</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic3"></div>
+                <h3>Doughnut</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic4"></div>
+                <h3>Latte</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic5"></div>
+                <h3>Chocolate Cake</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic6"></div>
+                <h3>Hot Chocolate</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic7"></div>
+                <h3>Croissant</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+            <div class="product-item">
+                <div class="product-pic8"></div>
+                <h3>Green Tea</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>$12.00 <span>$15.00</span></p>
+            </div>
+        </div>
     </section>
+    <section><!--Our team iig aguulj bui heseg-->
+        <h2 class="h2">Our Team</h2>
+        <div class="team-container">
+            <div class="team-item">
+                <div class="team-pic1"></div>
+                <div class="team-text">
+                    <h3>Michael Jordan</h3>
+                    <p>CEO</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-pic2"></div>
+                <div class="team-text">
+                    <h3>Amy Winehouse</h3>
+                    <p>Founder</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-pic3"></div>
+                <div class="team-text">
+                    <h3>Magic Johnson</h3>
+                    <p>Manager</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-item">
+                <div class="team-pic4"></div>
+                <div class="team-text">
+                    <h3>Scarlett Johansson</h3>
+                    <p>Manager</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2">Our Blogs</h2>
+        <div class="blog-container">
+            <div class="blog-item">
+                <div class="blog-pic">
+                    <span class="blog-date">
+                        <p>7</p>
+                        <p>Jul</p>
+                    </span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-details">
+                        <h5>Coffee</h5>
+                        <a href="#" class="blog-link1">How to brew coffee the right way</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="blog-link2">Read More</a>
+                    </div>
+                    <div class="blog-author">
+                        by admin
+                    </div>
+                </div>
+            </div>
+            <div class="blog-item">
+                <div class="blog-pic2">
+                    <span class="blog-date">
+                        <p>1</p>
+                        <p>Jul</p>
+                    </span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-details">
+                        <h5>Coffee</h5>
+                        <a href="#" class="blog-link1">How to brew coffee the right way</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="blog-link2">Read More</a>
+                    </div>
+                    <div class="blog-author">
+                        by admin
+                    </div>
+                </div>
+            </div>
+            <div class="blog-item">
+                <div class="blog-pic3">
+                    <span class="blog-date">
+                        <p>1</p>
+                        <p>Jul</p>
+                    </span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-details">
+                        <h5>Coffee</h5>
+                        <a href="#" class="blog-link1">How to brew coffee the right way</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="blog-link2">Read More</a>
+                    </div>
+                    <div class="blog-author">
+                        by admin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contacts-container">
+            <form>
+                <h3>Get in Touch</h3>
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Name">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="subject" required placeholder="Subject">
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="8" placeholder="Message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.7211131701156!2d106.90259467676896!3d47.9224334661142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969366c8b6b9a7%3A0x46313f3d850bf7cc!2sMN%20Tower%20Mongolia!5e0!3m2!1sen!2smn!4v1697122426328!5m2!1sen!2smn" width="806" height="534" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fa-solid fa-phone fa-rotate-270 infoIcon"></i>
+                <h3>Холбоо барих</h3>
+                <p>+976-99112233</p>
+                <p>+976-88112233</p>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-clock infoIcon"></i>
+                <h3>Цагийн хуваарь</h3>
+                <p>Да - Ба : 8.00 - 18.00</p>
+                <p>Бя - Ня : 10.00 - 20.00</p>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-envelope infoIcon"></i>
+                <h3>Email</h3>
+                <p>icode@cafe.com</p>
+                <p>info@cafe.com</p>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot infoIcon"></i>
+                <h3>Хаяг</h3>
+                <p>MN Tower, Chingeltei district</p>
+                <p>Ulaanbaatar, Mongolia</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div id="footer-item">
+                <a href="#" class="iCoffeeHeader">
+                    <img src="imgs/coffee_shop/logo1.png" alt="iCoffee Logo" class="logo1">
+                    <p class="iCoffeeText">iCoffee Shop</p>
+                </a>
+                <p>
+                    Манай кофе шопд бид зөвхөн кофегоор үйлчилдэггүй. Бидний зорилго
+                    бол зүгээр л кофегоо бэлтгэх биш, харин таны энэ өдрийн мүүдийг
+                    тогтоох юм. Бидний уриа бол кофе нь зүгээр л нэг уух зүйл биш - энэ бол
+                    амьдралын хэв маяг юм. Таныг бидэнтэй нэгдэж, төгс урлагийн ур
+                    чадвар, баяр баясгаланг мэдрэхийг урьж байна.
+                </p>
+                <div id="social">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook footer-social"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter footer-social"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-social"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin footer-social"></i></a>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h2>Quick links</h2>
+                <div class="info">
+                    <div class="links-item">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Home</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>About</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Team</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Products</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>FAQs</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Menu</a>
+                    </div>
+                    <div class="links-item">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Gallery</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Reservation</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Blog</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Shop</a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i>Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h2>Contact info</h2>
+                <div class="footer-contact-info">
+                    <p><i class="fa-solid fa-phone fa-rotate-270"></i>+976-111-222</p>
+                    <p><i class="fa-solid fa-phone fa-rotate-270"></i>+976-123-456</p>
+                    <p><i class="fa-solid fa-envelope"></i>icode@cafe.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Ulaanbaatar, Mongolia</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
