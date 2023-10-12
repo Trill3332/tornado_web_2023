@@ -411,12 +411,16 @@ section {
 }
 .team-text {
     background: #FFF;
+    padding-bottom:20px;
 }
 .team-item {
     background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
     margin-bottom:20px;
     padding-bottom:50px;
+}
+.social {
+    text-align: center;
 }
 .team-pic1 {
     background: url(/project_two_css/imgs/coffee_shop/team-1.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
