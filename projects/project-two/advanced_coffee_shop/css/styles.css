@@ -70,7 +70,7 @@ nav a {
 }
 .intro {
     height: 500px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(/projects/advanced_coffee_shop/imgs/coffee_background.jpg), lightgray  50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(/projects/project-two/advanced_coffee_shop/imgs/coffee_background.jpg), lightgray  50%;
     background-size: cover;
     background-position: center center;
 }
@@ -171,7 +171,7 @@ h2 {
     height: 450px;
 }
 .aboutImgContainer {
-    background: url(/projects/advanced_coffee_shop/imgs/about_background.jpg);
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/about_background.jpg);
     width: 150%;
     height: 450px;
     background-size: cover;
@@ -218,32 +218,32 @@ h2 {
 .service-pic1 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-1.png), lightgray 50% / cover no-repeat;
 }
 .service-pic2 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-2.png) lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-2.png) lightgray 50% / cover no-repeat;
 }
 .service-pic3 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-3.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-3.png), lightgray 50% / cover no-repeat;
 }
 .service-pic4 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-4.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-4.png), lightgray 50% / cover no-repeat;
 }
 .service-pic5 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-5.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-5.png), lightgray 50% / cover no-repeat;
 }
 .service-pic6 {
     width: 355px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/service-6.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/service-6.png), lightgray 50% / cover no-repeat;
 }
 .service-item {
     background: #FFF;
@@ -334,42 +334,42 @@ h2 {
 .product-pic1 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-1\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-1\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic2 {
     width: 260px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-2.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-2.png), lightgray 50% / cover no-repeat;
 }
 .product-pic3 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-3\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-3\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic4 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-4\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-4\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic5 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-5\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-5\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic6 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-6\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-6\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic7 {
     width: 261px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-7\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-7\ 1.png), lightgray 50% / cover no-repeat;
 }
 .product-pic8 {
     width: 260px;
     height: 250px;
-    background: url(/projects/advanced_coffee_shop/imgs/Product-8\ 1.png), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/Product-8\ 1.png), lightgray 50% / cover no-repeat;
 }
 .produc-item h3 {
     color: #000;
@@ -427,22 +427,22 @@ h2 {
     text-align: center;
 }
 .team-pic1 {
-    background: url(/projects/advanced_coffee_shop/imgs/team-1.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/team-1.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
     width: 367px;
     height: 316px;
 }
 .team-pic2 {
-    background: url(/projects/advanced_coffee_shop/imgs/team-2.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/team-2.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
     width: 367px;
     height: 316px;
 }
 .team-pic3 {
-    background: url(/projects/advanced_coffee_shop/imgs/team-3.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/team-3.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
     width: 367px;
     height: 316px;
 }
 .team-pic4 {
-    background: url(/projects/advanced_coffee_shop/imgs/team-4.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/team-4.jpg), lightgray 0px -34px / 108.992% 109.29% no-repeat;
     width: 337px;
     height: 316px;
 }
@@ -482,17 +482,17 @@ h2 {
     line-height: 18px; /* 100% */
 }
 .blog-pic {
-    background: url(/projects/advanced_coffee_shop/imgs/blog-1.jpg), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/blog-1.jpg), lightgray 50% / cover no-repeat;
     width: 471px;
     height: 354px;
 }
 .blog-pic2 {
-    background: url(/projects/advanced_coffee_shop/imgs/blog-2.jpg), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/blog-2.jpg), lightgray 50% / cover no-repeat;
     width: 471px;
     height: 354px;
 }
 .blog-pic3 {
-    background: url(/projects/advanced_coffee_shop/imgs/blog-3.jpg), lightgray 50% / cover no-repeat;
+    background: url(/projects/project-two/advanced_coffee_shop/imgs/blog-3.jpg), lightgray 50% / cover no-repeat;
     width: 471px;
     height: 354px;
 }

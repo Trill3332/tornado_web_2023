@@ -4,6 +4,9 @@
     font-family: 'Oswald';
     src: url('fonts/Oswald-Regular.ttf');
 }
+#page {
+    margin:0 auto;
+}
 img {
     height: 960px;
     width: 450px;
