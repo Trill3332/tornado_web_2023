@@ -138,6 +138,7 @@ section {
     font-weight: 500;
     line-height: normal;
     margin-bottom:80px;
+    position: relative;
 }
 .h2::before {
     content: '';
@@ -145,9 +146,9 @@ section {
     height: 1px;
     background-color: #603601;
     display:block;
-    position:relative;
+    position:absolute;
     top: 80px;
-    left: 710px;
+    left: 840px;
 }
 .h2::after {
     content: '';
@@ -156,9 +157,9 @@ section {
     border-radius: 5px;
     background-color: #603601;
     display:block;
-    position:relative;
-    top:29px;
-    left: 743px;
+    position:absolute;
+    left: 875px;
+    bottom: -35px;
 }
 .about-container {
     width: 100%;
