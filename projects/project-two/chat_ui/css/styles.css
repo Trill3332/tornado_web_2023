@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'Roboto';
+    src: url(/project_two_css/fonts/Roboto-Regular.ttf);
+}
+body {
+    background-color: #000;
+    padding-top: 150px;
+}
+.content {
+    margin: 0 auto;         
+    font-family: Roboto;
+}
+.name {
+    color:#FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:10px;
+}
+.container {
+    background-color: #F7F7F7;
+    width: 390px;
+    margin: 0 auto;
+    height: 844px;
+    border-radius: 25px;
+    position: relative;
+}
+.sender ,
+.receiver {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+    
+}
+img {
+    height: 75px;
+    width:75px;
+    border-radius: 50%;
+}
