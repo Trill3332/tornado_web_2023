@@ -1,0 +1,117 @@
+@media screen and (max-width:1024px) {
+    header,
+    footer {
+        height:80%;
+    }
+    .main {
+        flex-direction: column;
+    }
+    .about-container,
+    .services-container,
+    .products-container,
+    .blog-container,
+    .team-container,
+    .footer-container,
+    .coffee,
+    .contact-info {
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .product-pic1 {
+        width: 240px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-1\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic2 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-2.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic3 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-3\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic4 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-4\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic5 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-5\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic6 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-6\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic7 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-7\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .product-pic8 {
+        width: 235px;
+        height: 250px;
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/Product-8\ 1.png'), lightgray 50% / cover no-repeat;
+    }
+    .blog-pic {
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/blog-1.jpg'), lightgray 50% / cover no-repeat;
+        width: 367px;
+        height: 354px;
+    }
+    .blog-pic2 {
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/blog-2.jpg'), lightgray 50% / cover no-repeat;
+        width: 367px;
+        height: 354px;
+    }
+    .blog-pic3 {
+        background: url('/projects/project-two/advanced_coffee_shop/imgs/blog-3.jpg'), lightgray 50% / cover no-repeat;
+        width: 367px;
+        height: 354px;
+    }
+    .blog-item {
+        width: 367.33px;
+        background: #FFF;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+        padding:10px;
+    }
+    .blog-link2 {
+        padding: 7px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+        border: none;
+        background-color: #603601;
+        text-decoration: none;
+    }
+    footer {
+        flex-direction: column;
+        margin: 0 auto;
+        padding-bottom:150px;
+    }
+    #footer-item {
+        margin: 0 auto;
+    }
+    .footer-item {
+        position: relative;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .info {
+        position: absolute;
+        left: 300px;
+        top: 10px;
+    }
+    .links-item,
+    .links-item2 {
+        top: 65px;
+    }
+}

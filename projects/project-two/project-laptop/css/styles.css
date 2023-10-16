@@ -18,11 +18,9 @@ body{
 .logo {
     flex:1;
     display:flex;
-
 }
 nav {
     flex:2;
-
 }
 .navLinks {
     display: flex;
@@ -31,7 +29,6 @@ nav {
 .cart {
     display: flex;
     justify-content: flex-end;
-
     flex: 1;
 }
 .threeDots {

@@ -8,6 +8,8 @@ body {
     background: #F7F7F7;
     margin: 0 auto;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 header {
     display: flex;
@@ -123,8 +125,15 @@ nav a {
     border: none;
     cursor: pointer;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin:0 auto;
+}
 section {
-    width:80%;
+    width:100%;
     margin: 0 auto;
     background-color: #F7F7F7;
     padding: 30px 89.49px;
@@ -167,12 +176,12 @@ h2 {
 .about-container {
     width: 100%;
     display:flex;
-    gap: 0 40px;
+    gap: 40px;
     height: 450px;
 }
 .aboutImgContainer {
     background: url('/projects/project-two/advanced_coffee_shop/imgs/about_background.jpg');
-    width: 150%;
+    width: 100%;
     height: 450px;
     background-size: cover;
     background-position: center center;
@@ -213,17 +222,17 @@ h2 {
     width: 100%;
     display:flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 100px;
 }
 .service-pic1 {
     width: 355px;
     height: 250px;
-    background: url('/projects/project-two/advanced_coffee_shop/imgs/service-1.png'), lightgray 50% / cover no-repeat;
+    background: url('../imgs/service-1.png'), lightgray 50% / cover no-repeat;
 }
 .service-pic2 {
     width: 355px;
     height: 250px;
-    background: url('/projects/project-two/advanced_coffee_shop/imgs/service-2.png') lightgray 50% / cover no-repeat;
+    background: url('../imgs/service-2.png') lightgray 50% / cover no-repeat;
 }
 .service-pic3 {
     width: 355px;
@@ -257,6 +266,7 @@ h2 {
     font-weight: 400;
     line-height: 24px; /* 160% */
     width: 300px;
+    padding:20px;
 }
 .service-item img {
     width: 300px;
@@ -278,7 +288,7 @@ h2 {
 .coffee {
     display: flex;
     flex-wrap: wrap;
-    gap: 27px;
+    gap: 100px;
 }
 .coffee h4 {
     color: #000;
@@ -324,7 +334,7 @@ h2 {
     width: 100%;
     display:flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 100px;
 }
 .product-item {
     background: #FFF;
@@ -411,7 +421,8 @@ h2 {
 .team-container {
     width: 100%;
     display:flex;
-    gap: 35px;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 .team-text {
     background: #FFF;
@@ -443,7 +454,7 @@ h2 {
 }
 .team-pic4 {
     background: url('/projects/project-two/advanced_coffee_shop/imgs/team-4.jpg'), lightgray 0px -34px / 108.992% 109.29% no-repeat;
-    width: 337px;
+    width: 367px;
     height: 316px;
 }
 .team-text h3 {
@@ -561,7 +572,7 @@ h2 {
     width: 470.33px;
     background: #FFF;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
-    padding:20px;
+    padding:10px;
 }
 .blog-author {
     color: #000;
@@ -576,12 +587,14 @@ h2 {
 }
 .blog-container {
     display: flex;
-    gap: 10px;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 .contacts-container {
     display:flex;
     background: rgba(255, 255, 255, 0.00);
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    flex-wrap: wrap;
 }
 form {
     background: #FFF;
@@ -633,6 +646,7 @@ form button {
     align-content: flex-start;
     background: #FFF;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    flex-wrap: wrap;
 }
 .infoIcon {
     color: #C69B7B;
@@ -679,6 +693,7 @@ footer {
     width: 216.99px;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 #footer-item {
     width: 516.99px;
@@ -732,21 +747,25 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    position: relative;
 }
 .info {
     display: flex;
-    width: 517.01px;
     align-items: flex-start;
     gap: 20px;
+    position: relative;
+    margin: 0 auto;
 }
-.links-item {
+.links-item,
+.links-item2{
     display: flex;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
     gap: 11.8px;
 }
-.footer-item h2 {
+.footer-item h2,
+.footer-item2 h2 {
     color: #FFF;
     font-family: Roboto;
     font-size: 25px;
@@ -756,7 +775,8 @@ footer {
     letter-spacing: 2px;
 }
 .links-item i,
-.footer-contact-info i {
+.footer-contact-info i,
+.links-item2 i{
     color: #C69B7B;
     font-family: Font Awesome 5 Free;
     font-size: 16px;
@@ -764,7 +784,8 @@ footer {
     font-weight: 900;
     line-height: 16px; /* 100% */
 }
-.links-item a {
+.links-item a,
+.links-item2 a {
     display: flex;
     padding-right: 0px;
     align-items: center;
@@ -788,4 +809,17 @@ footer {
 }
 .footer-contact-info i {
     padding-right:10px;
+}
+.links-item2 {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.links-item {
+    position: absolute;
+    top: 80px;
+}
+.footer-contact-info {
+    position: absolute;
+    top: 50px;
 }
