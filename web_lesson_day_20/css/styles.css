@@ -1,0 +1,12 @@
+#page {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border: 2px solid gold;
+}
+#page h1 {
+    color: darkred;
+    background-color: antiquewhite;
+    text-align: center;
+}
