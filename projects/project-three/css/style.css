@@ -10,15 +10,17 @@
     height:100vh;
     position: relative;
     font-family: 'Roboto';
+    overflow:hidden;
 }
 .ps {
     width: 50%;
-    background: url('../imgs/ps.jpg');
+    background: url('../imgs/ps5.jpg');
     background-size: cover;
     background-position: center center;
     height : 100%;
     text-align: center;
     font-family: 'Roboto';
+    overflow: hidden;
 }
 .xbox {
     width: 50%;
@@ -29,6 +31,7 @@
     text-align: center;
     position: relative;
     font-family: 'Roboto';
+    overflow: hidden;
 }
 div a {
     padding:25px;
@@ -53,6 +56,7 @@ h1 {
     font-size: 48px;
     color: #FFFFFF;
     transform: translateX(-50%);
+    white-space: nowrap;
 }
 .textContainer a:hover {
     background-color: blue;
