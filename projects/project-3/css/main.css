@@ -284,3 +284,13 @@ letter-spacing: 1px;
     right: 48%;
     bottom:-10%;
 }
+.h2Container::after {
+    content:'';
+    width: 20px;
+    height:20px;
+    border-radius: 10px;
+    background: #013560;
+    display:block;
+    position: absolute;
+    left: 49.2%;
+}
