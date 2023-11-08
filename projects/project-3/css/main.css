@@ -28,7 +28,8 @@ line-height: 18px; /* 100% */
     flex-shrink: 0;
     background: #013560;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    position: relative;   
 }
 .iCompanyLogo {
     display: flex;
@@ -670,4 +671,66 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.sign-in-section {
+    width: 300px;
+    height: auto;
+    background: transparent;
+    position: absolute;
+    top: 70px;
+    right: -8.2%;
+    padding: 0px;
+    display:none;
+}
+.sign-in-section h2 {
+    color: #1999ff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+.sign-in-section p {
+    color: #FFF;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-size: 12px;
+}
+.sign-in-section input {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #7BB7C6;
+}
+.sign-in-button {
+
+    padding: 12px 30px 13px 30px;
+    border-radius: 10px;
+    background: #1999ff;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    border:none;
+    margin-top: 20px;
+}
+button:hover {
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.3);
+    background: #7BB7C6;
+    border: none;
+}
+.sign-in-section span {
+    color: #FFF;
+    font-size: 25px;
+    margin-left:55px;
+    cursor: pointer;
+}
+.sign-in-section.show { 
+    display: block;
 }

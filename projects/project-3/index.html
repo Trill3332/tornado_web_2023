@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <a href="../project-3/index.html" class="iCompanyLogo">
             <i class="fa-solid fa-camera-retro"></i>
             <h3>iCompany</h3>
@@ -25,9 +25,21 @@
             </div>
             <a href="../project-3/contacts.html">Contact</a>
         </nav>
-        <a href="#">
+        <a href="#" id="userBtn">
             <i class="fa-regular fa-user user-icon"></i>
         </a>
+        <div class="sign-in-section">
+            <h2>Sign In <span class="closeBtn"><i class="fa-solid fa-xmark"></i></span> </h2>
+            <p>Sign In With Your Email</p>
+            <input type="email" required>
+            <p>Confirm your Email</p>
+            <input type="email" required>
+            <p>Enter your Password</p>
+            <input type="password" required>
+            <p>Confirm your password</p>
+            <input type="password" required>
+            <button class="sign-in-button">Sign In</button>
+        </div>
     </div>
     <div class="headerSection">
         <div class="content">
@@ -368,5 +380,6 @@
             Developed by <span>iCode</span> | © 2023 iCompany | All rights reserved.
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
