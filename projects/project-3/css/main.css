@@ -673,17 +673,18 @@ footer {
     line-height: normal;
 }
 .sign-in-section {
-    width: 300px;
+    width: 200px;
     height: auto;
-    background: transparent;
-    position: absolute;
-    top: 70px;
-    right: -8.2%;
+    background:transparent;
     padding: 0px;
     display:none;
+    position :absolute;
+    top: 100%;
+    right: 0%;
+    text-align: center;
 }
 .sign-in-section h2 {
-    color: #1999ff;
+    color: #FFF;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .02em;
@@ -694,6 +695,8 @@ footer {
     text-transform: uppercase;
     letter-spacing: .02em;
     font-size: 12px;
+    margin: 0;
+    padding-top:20px;
 }
 .sign-in-section input {
     border-radius: 2px;
@@ -705,10 +708,9 @@ footer {
     border: 1px solid #7BB7C6;
 }
 .sign-in-button {
-
     padding: 12px 30px 13px 30px;
     border-radius: 10px;
-    background: #1999ff;
+    background: #2ecc71;
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -732,5 +734,24 @@ button:hover {
     cursor: pointer;
 }
 .sign-in-section.show { 
+    display: block;
+}
+.dropDownMenu button:hover {
+    background: none;
+    box-shadow: none;
+}
+.dropDown {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 65px;
+    height: 0;
+    display: none;
+}
+.dropDown a {
+    height: 0;
+    padding: 15px;
+}
+.dropDown.show {
     display: block;
 }
