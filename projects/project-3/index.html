@@ -20,40 +20,43 @@
                     About
                     <i class="fa-solid fa-angle-down"></i>
                 </button>
-                <div class="dropDown">
-                    <a href="">Info</a>
-                    <a href="">Our Team</a>
-                </div>
             </div>
             <div class="dropDownMenu">
                 <button>
                     Links
                     <i class="fa-solid fa-angle-down"></i>
                 </button>
-                <div class="dropDown">
-                    <a href="">A-Page</a>
-                    <a href="">B-Page</a>
-                    <a href="">C-Page</a>
-                </div>
             </div>
             <a href="../project-3/contacts.html">Contact</a>
         </nav>
-        <a href="#" id="userBtn">
+        <button id="userBtn" onclick="openForm()">
             <i class="fa-regular fa-user user-icon"></i>
-        </a>
-        <div class="sign-in-section">
-            <h2>Sign In <span class="closeBtn"><i class="fa-solid fa-xmark"></i></span> </h2>
-            <p>Sign In With Your Email</p>
-            <input type="email" required>
-            <p>Confirm your Email</p>
-            <input type="email" required>
-            <p>Enter your Password</p>
-            <input type="password" required>
-            <p>Confirm your password</p>
-            <input type="password" required>
-            <div>
-                <button class="sign-in-button">Sign In</button>
-            </div>
+        </button>
+        <div class="popup-form" id="popupForm">
+            <form action="#" class="form-container">
+                <div class="popup-form-header">
+                    <h2>Popup Form</h2>
+                    <button id="closeBtn" onclick="closeForm()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>  
+                <div class="popup-form-body">
+                    <p>Register with us to get offers,support and more</p>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" required>
+
+                <label for="Email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" required>
+
+                <label for="password"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" required>
+
+                <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="headerSection">
@@ -72,14 +75,33 @@
         </div>
     </div>
     <section class="slideSection">
-        <div class="slide">
-            <div class="imgBottom"></div>
+        <div class="slider">
+            <div class="slide" id="slide1">
+                <div class="imgBottom">
+    
+                </div>
+            </div>
+            <div class="slide" id="=slide2">
+                <div class="imgBottom">
+
+                </div>
+            </div>
+            <div class="slide" id="=slide3">
+                <div class="imgBottom">
+                    
+                </div>
+            </div>
+            <div class="slide" id="=slide4">
+                <div class="imgBottom">
+                    
+                </div>
+            </div>
         </div>
         <div class="slideBtns">
-            <button>
+            <button id="prevBtn" onclick="prevSlide()">
                 <img src="../project-3/imgs/left-arrow.png" alt="">
             </button>
-            <button>
+            <button id="nextBtn" onclick="nextSlide()">
                 <img src="../project-3/imgs/right-arrow.png" alt="">
             </button>
         </div>

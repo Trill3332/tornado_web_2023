@@ -10,7 +10,7 @@ function showSlide(index) {
         currentSlide = index;
     }
 
-    const translateValue = -currentSlide * 100 + '%';
+    const translateValue = -currentSlide * 50 + '%';
     slider[0].setAttribute('style','transform:translateX(' + translateValue + ')');
 }
 
