@@ -37,7 +37,7 @@ function showSlide(index) {
         } else {
             slides[i].style.display = 'none';
         }
-        const translateValue = -currentSlide * 100 + '%' ;
+        const translateValue = -currentSlide * 0  + '%' ;
         slider[i].setAttribute('style', 'transform:translateX(' + translateValue + ')');
     } 
 }
