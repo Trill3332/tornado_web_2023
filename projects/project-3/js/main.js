@@ -30,10 +30,16 @@ function showSlide(index) {
         currentSlide = slides.length - 1;
     } else {
         currentSlide = index;
+    }
+    for (let i = 0; i < slides.length; i++) {
+        if (i === currentSlide) {
+            slides[i].style.display = 'block';
+        } else {
+            slides[i].style.display = 'none';
+        }
+        const translateValue = -currentSlide * 100 + '%' ;
+        slider[i].setAttribute('style', 'transform:translateX(' + translateValue + ')');
     } 
-    const translateValue = -currentSlide * 100 + '%' ;
-    slider[0].setAttribute('style', 'transform:translateX(' + translateValue + ')');
-
 }
 function prevSlide() {
     showSlide(currentSlide - 1);

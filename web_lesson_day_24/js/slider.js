@@ -10,7 +10,7 @@ function showSlide(index) {
         currentSlide = index;
     }
 
-    const translateValue = -currentSlide * 50 + '%';
+    const translateValue = -currentSlide * 100 + '%';
     slider[0].setAttribute('style','transform:translateX(' + translateValue + ')');
 }
 
@@ -19,5 +19,5 @@ function prevSlide() {
 }
 function nextSlide() {
     showSlide(currentSlide + 1);
-}
+}8
 
