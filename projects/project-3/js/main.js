@@ -19,36 +19,47 @@ function closeForm() {
 
 // slider section
 
-let currentSlideIndex = 0;
-const slider = document.getElementsByClassName('slider');
-const slides = document.getElementsByClassName('slide');
+const slider = document.querySelector('.slider');
+const slideItems = document.querySelectorAll('.slide');
 
-function showSlide(index) {
-    if (index >= slides.length) {
-        currentSlideIndex = 0;
-    } else if (index < 0) {
-        currentSlideIndex = slides.length - 1;
-    } else {
-        currentSlideIndex = index;
+const prevBtn = document.querySelector('#prevBtn');
+const nextBtn = document.querySelector('#nextBtn');
+
+let currentSlide = 1;
+const size = slideItems[0].clientWidth;
+slider.style.transform = 'translateX('+ (-size * currentSlide ) + 'px)';
+
+nextBtn.addEventListener('click', () => {
+    if (currentSlide >= slideItems.length-1) {
+        return;
     }
+    slider.style.transition = "transform 1.5s ease-in-out";
+    currentSlide++;
+    //console.log(currentSlide);
+    slider.style.transform = 'translateX('+ (-size * currentSlide ) + 'px)';
+})
 
-    const translateValue = -currentSlideIndex * 0 + '%';
-
-    for (let i = 0; i < slides.length; i++) {
-        if (i === currentSlideIndex) {
-            slides[i].style.display = 'block';
-            // slides[i].style.transform = 'translateX(' + translateValue + ')';
-            slider[0].setAttribute('style', 'transform:translateX(' + translateValue + ')');
-        } else {
-            slides[i].style.display = 'none';
-        }
+prevBtn.addEventListener('click', () => {
+    if (currentSlide <= 0) {
+        return;
     }
-   
+    slider.style.transition = "transform 1.5s ease-in-out";
+    currentSlide--;
+    //console.log(currentSlide);
+    slider.style.transform = 'translateX('+ (-size * currentSlide ) + 'px)';
+})
 
-}
-function prevSlide() {
-    showSlide(currentSlideIndex - 1);
-}
-function nextSlide() {
-    showSlide(currentSlideIndex + 1);
-}
+slider.addEventListener('transitionend', () => {
+    if (slideItems[currentSlide] && slideItems[currentSlide].id === 'lastClone') {
+        slider.style.transition = 'none';
+        currentSlide = slideItems.length - 2; // Adjust the index to the appropriate position
+        slider.style.transform = 'translateX(' + (-size * currentSlide) + 'px)';
+        console.log('none');
+    }
+    if (slideItems[currentSlide] && slideItems[currentSlide].id === 'firstClone') {
+        slider.style.transition = 'none';
+        currentSlide = slideItems.length - currentSlide; // Adjust the index to the appropriate position
+        slider.style.transform = 'translateX(' + (-size * currentSlide) + 'px)';
+        console.log('none');
+    }
+});
