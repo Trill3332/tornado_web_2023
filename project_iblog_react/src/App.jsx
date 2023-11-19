@@ -4,15 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header'
 import Sidebar from './components/Sidebar'
+import MainContent from './components/MainContent'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='flex w-[1440px]'>
+      <div className='flex w-[1440px] mx-auto h-[1802px]'>
         <Sidebar />
-        <Header />
-        
+        <div>
+          <Header />
+          <MainContent />
+        </div>
       </div>
     </>
   )
