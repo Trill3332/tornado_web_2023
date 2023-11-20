@@ -89,6 +89,7 @@ nav a{
     display: none;
     position: absolute;
     left: -10px;
+    z-index: 1;
 }
 .dropDown a,
 .dropDownTwo a {

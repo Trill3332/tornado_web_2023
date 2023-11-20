@@ -8,13 +8,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className='flex w-[1440px]'>
+    <div>
+      <div className='w-[1440px] h-screen justify-center mx-auto'>
         <Sidebar />
         <Header />
         
       </div>
-    </>
+    </div>
   )
 }
 
