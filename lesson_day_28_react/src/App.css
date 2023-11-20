@@ -1,0 +1,17 @@
+.image-container {
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+#image1 img {
+    width: 300px;
+    height: auto;
+}
+#image2 img {
+    width: 200px;
+    height: auto;
+}
+#image3 img {
+    width: 400px;
+    height: auto;
+}
