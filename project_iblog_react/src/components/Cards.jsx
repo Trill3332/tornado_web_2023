@@ -1,41 +1,35 @@
 import Card from "./Card";
+import React, { useState } from "react";
+import { profiles } from "../data/data";
 
-const Cards = () => {
+function Cards() {
+    const [profileState, setProfileState] = useState(profiles);
+    console.log(profileState)
+
+    const cards = profileState.map((profile) => {
+        return (
+            <Card
+                cardImg={profile.cardImg}
+                name={profile.name}
+                authorImg={profile.authorImg}
+                title={profile.title}
+                cardDate={profile.cardDate}
+            />
+        )
+    });
+
     return (
-        <div className="cards flex items-start gap-[22px]">
-        <Card
-            cardImg="card-1.jpeg"
-            cardTitle="The Impact of Technology on the Workplace"
-            authorImg="author-1.jpeg"
-            authorName="Tracey Wilson"
-            cardDate="2022 Aug 10"
-            cardLikes="23"
-        />
-        <Card
-            cardImg="card-1.jpeg"
-            cardTitle="The Impact of Technology on the Workplace"
-            authorImg="author-1.jpeg"
-            authorName="Tracey Wilson"
-            cardDate="2022 Aug 10"
-            cardLikes="23"
-        />
-        <Card
-            cardImg="card-1.jpeg"
-            cardTitle="The Impact of Technology on the Workplace"
-            authorImg="author-1.jpeg"
-            authorName="Tracey Wilson"
-            cardDate="2022 Aug 10"
-            cardLikes="23"
-        />
-        <Card
-            cardImg="card-1.jpeg"
-            cardTitle="The Impact of Technology on the Workplace"
-            authorImg="author-1.jpeg"
-            authorName="Tracey Wilson"
-            cardDate="2022 Aug 10"
-            cardLikes="23"
-        />
-    </div>
+        <div className="flex gap-[22px] mt-[5px] mb-[5px]">
+            {cards}
+            <div className="slider flex w-[986px] h-[52px] justify-between items-center absolute bottom-[68%] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.15)">
+                <button>
+                    <img src="arrow-right.svg" alt="" className=" rotate-180 w-[52px] h-[52px] p-[10px] bg-[#FFFFFF] rounded-[50px]"/>
+                </button>
+                <button>
+                    <img src="arrow-right.svg" alt="" className="w-[52px] h-[52px] p-[10px] bg-[#FFFFFF] rounded-[50px]"/>
+                </button>
+            </div>
+        </div>
     )
 }
 export default Cards;
