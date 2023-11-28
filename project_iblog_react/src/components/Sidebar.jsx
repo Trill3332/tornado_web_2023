@@ -3,8 +3,8 @@ import React, { useState } from "react";
 
 const Sidebar = () => {
 
-    const [toggleOne, setToggleOne] = useState(true)
-    const [toggleTwo, setToggleTwo] = useState(true)
+    const [toggleOne, setToggleOne] = useState(false)
+    const [toggleTwo, setToggleTwo] = useState(false)
 
 
     return (
@@ -21,7 +21,9 @@ const Sidebar = () => {
                     <div className="flex justify-between items-center cursor-pointer hover:bg-[#E86B02] active:bg-[#E86B02] w-[250px] py-[8px] text-[#242A31] text-[14px] font-Inter font-semibold hover:text-[#FFFFFF]"
                         onClick={() => setToggleOne(!toggleOne)}>
                         Lifestyle
-                        <img src="downarrow.svg" alt="" />
+                        {
+                            toggleOne === false ? <img src="downarrow.svg" alt="" /> : <img src="uparrow.svg" />
+                        }
                     </div>
                     {toggleOne && (
                         <ul>
@@ -44,7 +46,9 @@ const Sidebar = () => {
                     <div className="flex justify-between items-center cursor-pointer hover:bg-[#E86B02] active:bg-[#E86B02] w-[250px] py-[8px] text-[#242A31] text-[14px] font-Inter font-semibold hover:text-[#FFFFFF]"
                         onClick={() => setToggleTwo(!toggleTwo)}>
                         Sport
-                        <img src="downarrow.svg" alt="" />
+                        {
+                            toggleTwo === false ? <img src="downarrow.svg" alt="" /> : <img src="uparrow.svg" />
+                        }
                     </div>
                     {toggleTwo && (
                         <ul>
