@@ -2,7 +2,7 @@ import Sidebar from '../components/Sidebar'
 import Header from '../components/Header'
 import MainContent from '../components/MainContent'
 import Footer from '../components/Footer'
-
+import CategoryHome from '../components/Categories/CategoryHome'
 
 
 const Home = () => {
@@ -11,6 +11,7 @@ const Home = () => {
             <Sidebar />
             <div>
                 <Header />
+                <CategoryHome />
                 <MainContent />
                 <Footer />
             </div>
