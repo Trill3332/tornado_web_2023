@@ -19,9 +19,9 @@ function Cards() {
     });
 
     return (
-        <div className="flex gap-[22px] mt-[5px] mb-[5px]">
+        <div className="flex gap-[22px] mt-[5px] mb-[5px] relative">
             {cards}
-            <div className="slider flex w-[986px] h-[52px] justify-between items-center absolute bottom-[68%] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.15)">
+            <div className="slider flex w-[986px] h-[52px] justify-between items-center absolute bottom-[50%] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.15)">
                 <button>
                     <img src="arrow-right.svg" alt="" className=" rotate-180 w-[52px] h-[52px] p-[10px] bg-[#FFFFFF] rounded-[50px]"/>
                 </button>
