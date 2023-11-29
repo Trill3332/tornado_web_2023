@@ -14,6 +14,7 @@ function Cards() {
                 authorImg={profile.authorImg}
                 title={profile.title}
                 cardDate={profile.cardDate}
+                initialLikes={profile.initialLikes}
             />
         )
     });

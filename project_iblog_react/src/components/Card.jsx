@@ -1,15 +1,14 @@
 import { useState } from "react";
 
 
-function Card({ cardImg, title, name, authorImg, cardDate }) {
+function Card({ cardImg, title, name, authorImg, cardDate,initialLikes }) {
     
-    const [likes, setLikes] = useState(0);
-
+    const [likes, setLikes] = useState(initialLikes);
     function increaseLikes() {
-        if (likes == 0) {
-            setLikes(1);
+        if (likes === initialLikes) {
+            setLikes((prev) => prev+1);
         } else {
-            setLikes(0);
+            setLikes((prev) => prev-1);
         }
     }
 
@@ -26,7 +25,7 @@ function Card({ cardImg, title, name, authorImg, cardDate }) {
             <div className="like-share-btns flex w-[209px] justify-between items-center">
                 <div className="likes flex">
                     {
-                        likes === 0 ? <img src="u_heart.svg" className="w-[20px] h-[20px] cursor-pointer" onClick={increaseLikes}/> : <img src="red-heart.svg" className="w-[20px] h-[20px] cursor-pointer bg-red" onClick={increaseLikes}/>
+                        likes === initialLikes ? <img src="u_heart.svg" className="w-[20px] h-[20px] cursor-pointer" onClick={increaseLikes}/> : <img src="red-heart.svg" className="w-[20px] h-[20px] cursor-pointer bg-red" onClick={increaseLikes}/>
                     }
                     <p className="font-Inter text-[#151411] text-[16px] font-[500] leading-[130%] tracking-[0.16px]">{likes}</p>
                 </div>

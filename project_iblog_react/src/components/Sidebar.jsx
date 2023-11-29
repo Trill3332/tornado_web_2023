@@ -22,7 +22,7 @@ const Sidebar = () => {
                         onClick={() => setToggleOne(!toggleOne)}>
                         Lifestyle
                         {
-                            toggleOne === false ? <img src="downarrow.svg" alt="" /> : <img src="uparrow.svg" />
+                            toggleOne ? <img src="downarrow.svg" alt="" /> : <img src="uparrow.svg" />
                         }
                     </div>
                     {toggleOne && (
