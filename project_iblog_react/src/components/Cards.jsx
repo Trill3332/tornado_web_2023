@@ -1,9 +1,10 @@
 import Card from "./Card";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { profiles } from "../data/data";
 
 function Cards() {
     const [profileState, setProfileState] = useState(profiles);
+
     console.log(profileState)
 
     const cards = profileState.map((profile) => {
@@ -18,7 +19,7 @@ function Cards() {
             />
         )
     });
-
+    
     return (
         <div className="flex gap-[22px] mt-[5px] mb-[5px] relative">
             {cards}
