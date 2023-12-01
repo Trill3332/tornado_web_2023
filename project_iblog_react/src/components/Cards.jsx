@@ -4,26 +4,6 @@ import { profiles } from "../data/data";
 
 function Cards() {
     const [profileState, setProfileState] = useState(profiles);
-    const [blogs, setBlogs] = useState([]);
-
-    useEffect(() => {
-        const apiKey = 'a7b6d210c826475484be45ea9f247a29';
-        const apiUrl = `https://newsapi.org/v2/everything?q=tesla&from=2023-10-30&sortBy=publishedAt&apiKey=${apiKey}`;
-        
-        fetch(apiUrl)
-                    .then(response => {
-                        if(!response.ok) {
-                            throw new Error(`HTTP Error! Status: ${response.status}`)
-                        }
-                        return response.json();
-                    })
-                    .then(data => {
-                        setBlogs(data.blogs);
-                    })
-                    .catch(error => {
-                        console.error('Error : ',error)
-                    });
-    });
 
     console.log(profileState)
 
