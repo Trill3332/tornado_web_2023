@@ -5,7 +5,7 @@ export const profiles = [
         title : 'The Impact of Technology on the Workplace',
         authorImg : '/author-1.jpeg',
         cardDate : '2023/11/11',
-        initialLikes : 10
+        initialLikes : 10,
     },
     {
         cardImg : '/card-2.jpg',
