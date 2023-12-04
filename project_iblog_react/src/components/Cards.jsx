@@ -5,11 +5,10 @@ import { profiles } from "../data/data";
 function Cards() {
     const [profileState, setProfileState] = useState(profiles);
 
-    console.log(profileState)
-
-    const cards = profileState.map((profile) => {
+    const cards = profileState.map((profile,index) => {
         return (
             <Card
+                key={index}
                 cardImg={profile.cardImg}
                 name={profile.name}
                 authorImg={profile.authorImg}
