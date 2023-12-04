@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./Logo";
 
 
 const Sidebar = () => {
@@ -9,13 +10,7 @@ const Sidebar = () => {
 
     return (
         <aside className="px-[49px] py-[40px] flex flex-col border-r-[1px] border-solid border-[#E2E8EE]">
-            <div className="flex mb-[45px]">
-                <img src="Group.svg" alt="" />
-                <div>
-                    <span className="text-[#F77268] text-[30px]">i</span>
-                    <span className="text-[#FC9419] text-[30px]">blog</span>
-                </div>
-            </div>
+           <Logo />
             <div className="flex flex-col gap-[32px]">
                 <div className="w-[250px] flex flex-col">
                     <div className="flex justify-between items-center cursor-pointer hover:bg-[#E86B02] active:bg-[#E86B02] w-[250px] py-[8px] text-[#242A31] text-[14px] font-Inter font-semibold hover:text-[#FFFFFF]"
