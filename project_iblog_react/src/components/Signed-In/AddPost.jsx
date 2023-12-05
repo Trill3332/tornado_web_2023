@@ -3,10 +3,8 @@ import Search from "../Search";
 import MyProfile from "./MyProfile";
 import SignedSearch from "./SignedSearch";
 import { profiles } from "../../data/data";
-import ProfileCategories from "./ProfileCategories";
-import NoPosts from "./NoPosts";
 import Footer from "../Footer";
-const Profile = () => {
+const AddPost = () => {
 
     const selectedProfile = profiles[0];
 
@@ -18,19 +16,25 @@ const Profile = () => {
                     <Search />
                     <SignedSearch />
                 </header>
-                <main className="inline-flex gap-[30px] items-start">
+                <main className="flex w-[1344px] h-[631px] items-start gap-[155px]">
                     <MyProfile
                         authorImg={selectedProfile.authorImg}
                         name={selectedProfile.name}
                     />
-                    <ProfileCategories />
+                    <div className="flex flex-col items-start gap-[35px]">
+                        <div className="flex w-[846px] h-[40px] items-start gap-[1px]">
+                                <img src="/addpost_pen.svg" alt="pen" className="w-[24px] h-[24px]" />
+                                <p className="font-Inter font-[700] text-[18px] text-[#333]">Пост нэмэх</p>
+                        </div>
+                        <div className="flex flex-col items-start gap-[10px]">
+                            <p className="font-Inter text-[18px] font-[700] leading-[22px] text-[#000]">Категори сонгох</p>
+                            
+                        </div>
+                    </div>
                 </main>
-                <NoPosts />
             </div>
             <Footer />
         </div>
     )
 }
-
-
-export default Profile;
+export default AddPost;
