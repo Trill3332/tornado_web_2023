@@ -1,7 +1,7 @@
 const SignedSearch = () => {
     return (
         <div className="flex w-[386px] justify-end items-center gap-[16px]">
-            <img src="/u_heart(1).svg" alt="heart" />
+            <img src="/sign_heart.svg" alt="heart" />
             <button className=" inline-flex px-[30px] py-[10px] justify-center items-center gap-[2px] rounded-[10px] bg-[#E86B02] font-Inter text-[15px] font-[500] leading-[21px] text-[#FFF]">
                 Post
                 <img src="/u_pen.svg" alt="Pen" />
