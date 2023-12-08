@@ -1,8 +1,8 @@
 import Cards from "./Cards";
-const MainContent = () => {
+const MainContent = ({searchTerm}) => {
     return (
         <main className="p-[48px]">
-            <Cards />
+            <Cards searchTerm = {searchTerm}/>
         </main>
     )
 }

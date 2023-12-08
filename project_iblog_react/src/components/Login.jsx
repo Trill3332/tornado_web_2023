@@ -1,4 +1,4 @@
-const DefaultSearch = () => {
+const Login = () => {
     return (
         <div className="flex gap-[10px]">
         <button className="py-[10px] px-[30px] rounded-[10px] border border-solid border-[#DCE3EA] bg-[#FFFFFF] text-[#E86B02]">
@@ -10,4 +10,4 @@ const DefaultSearch = () => {
     </div>
     )
 }
-export default DefaultSearch
+export default Login
