@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
-
-
+import { lifestyleTags } from "../data/lifestyle";
+import { sportTags } from "../data/sport";
 const Sidebar = () => {
 
     const [toggleOne, setToggleOne] = useState(false)
     const [toggleTwo, setToggleTwo] = useState(false)
-
+    const [activeLifestyle, setActiveLifestyle] = useState(0)
+    const [activeSport, setActiveSport] = useState(0)
 
     return (
         <aside className="px-[49px] py-[40px] flex flex-col border-r-[1px] border-solid border-[#E2E8EE]">
@@ -21,20 +22,13 @@ const Sidebar = () => {
                         }
                     </div>
                     {toggleOne && (
-                        <ul>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Hobby
-                            </li>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Travel
-                            </li>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Food&Beverage
-                            </li>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Home and decor
-                            </li>
-                        </ul>
+                        lifestyleTags.map((item,index) => {
+                            return (
+                                <ul onClick={() => setActiveLifestyle(index)} className={`${index == activeLifestyle?'bg-[#E86B02] text-[#FFFFFF]' : null}`}>
+                                    <li className="py-[8px] px-[16px] font-Inter cursor-pointer">{item.name}</li>
+                                </ul>
+                            )
+                        })
                     )}
                 </div>
                 <div className="w-[250px] flex flex-col">
@@ -46,14 +40,13 @@ const Sidebar = () => {
                         }
                     </div>
                     {toggleTwo && (
-                        <ul>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Soccer
-                            </li>
-                            <li className="py-[8px] px-[16px] font-Inter">
-                                Volleyball
-                            </li>
-                        </ul>
+                        sportTags.map((item,index) => {
+                            return (
+                                <ul onClick={() => setActiveSport(index)} className={`${index == activeSport?'bg-[#E86B02] text-[#FFFFFF]' : null}`}>
+                                    <li className="py-[8px] px-[16px] font-Inter cursor-pointer">{item.name}</li>
+                                </ul>
+                            )
+                        })
                     )}
                 </div>
                 <div className="flex justify-between items-center">
