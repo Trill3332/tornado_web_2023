@@ -2,18 +2,18 @@ import Card from "./Card";
 import React, { useState, useEffect } from "react";
 import { profiles } from "../data/data";
 import axios from 'axios';
-
+import { useNavigate } from "react-router-dom";
 function Cards({ searchTerm }) {
   const [profileState, setProfileState] = useState([]);
   const [loading,setLoading] = useState(true);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const fetchPosts = async () => {
       try {
         const response = await axios.get('https://newsapi.org/v2/everything?q=apple&from=2023-12-06&to=2023-12-06&sortBy=popularity&apiKey=a7b6d210c826475484be45ea9f247a29');
         const articles = await response.data.articles;
-        console.log(articles);
-        setProfileState(articles.slice(0, 12));
+        setProfileState(articles.slice(1, 13));
+        console.log(articles)
         setLoading(false);
       } catch (error) {
         console.error(error);
@@ -44,17 +44,24 @@ function Cards({ searchTerm }) {
     return articleTitleLowerCase.includes(searchTermLowerCase);
   });
 
-  const cards = filteredCards.map((article, index) => (
-    <Card
-      key={index}
-      cardImg={article.urlToImage}
-      name={dynamicProfiles[index]?.name}
-      authorImg={dynamicProfiles[index]?.authorImg}
-      title={article.title}
-      cardDate={article.publishedAt}
-      initialLikes={dynamicProfiles[index]?.initialLikes}
-    />
-  ));
+  const cards = filteredCards.map((article, index) => {
+    const uniqueId = `${index + 1}`
+    return (
+      <Card
+        key={uniqueId}
+        id={uniqueId}
+        cardImg={article.urlToImage}
+        name={dynamicProfiles[index]?.name}
+        authorImg={dynamicProfiles[index]?.authorImg}
+        title={article.title}
+        cardDate={article.publishedAt}
+        initialLikes={dynamicProfiles[index]?.initialLikes}
+        description={article.description}
+        content={article.content}
+      />
+    );
+  });
+  
 
   return (
     <div className="flex gap-[22px] mt-[5px] mb-[5px] relative">

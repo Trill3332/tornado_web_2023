@@ -1,13 +1,27 @@
 import { useState } from 'react'
 import Home from './pages/Home'
-import Cards from './components/Cards'
-
+import { Routes, Route } from 'react-router-dom'
+import Blog from './pages/Blog'
+import Sidebar from './components/Sidebar'
+import Header from './components/Header'
+import Footer from './components/Footer'
 function App() {
-  const [count, setCount] = useState(0)
+  const [searchTerm, setSearchTerm] = useState("");
+  const handleSearch = (keyword) => {
+    setSearchTerm(keyword);
+  }
 
   return (
-    <div>
-      <Home />
+    <div className='flex w-[1440px]'>
+      <Sidebar />
+      <div>
+        <Header onSearch={handleSearch} />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/blog/:id' element={<Blog />} />
+        </Routes>
+        <Footer />
+      </div>
     </div>
   )
 }

@@ -1,9 +1,11 @@
 import { useState } from "react";
 import LikeShareButtons from "./LikeShareButtons";
+import { Navigate, useNavigate } from "react-router-dom";
 
 
-function Card({ cardImg, title, name, authorImg, cardDate, initialLikes }) {
+function Card({ cardImg, title, name, authorImg, cardDate, initialLikes,id }) {
     const [likes, setLikes] = useState(initialLikes);
+    const navigate= useNavigate();
     function increaseLikes() {
         if (likes === initialLikes) {
             setLikes((prev) => prev + 1);
@@ -14,7 +16,7 @@ function Card({ cardImg, title, name, authorImg, cardDate, initialLikes }) {
 
 
     return (
-        <div className="p-[10px] flex flex-col items-start gap-[10px] rounded-[8px] bg-[#FFF] shadow-md w-[230px] h-[300px]">
+        <div className="p-[10px] flex flex-col items-start gap-[10px] rounded-[8px] bg-[#FFF] shadow-md w-[230px] h-[300px] cursor-pointer" onClick={() => navigate('/blogs/'+ id)}>
             <div className="w-[210px] h-[140px]">
                 <img src={cardImg} className="w-[210px] h-[140px] rounded-[8px]" />
             </div>
