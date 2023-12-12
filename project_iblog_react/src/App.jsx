@@ -18,7 +18,7 @@ function App() {
         <Header onSearch={handleSearch} />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/blog/:id' element={<Blog />} />
+          <Route path='/blogs/:id' element={<Blog />} />
         </Routes>
         <Footer />
       </div>

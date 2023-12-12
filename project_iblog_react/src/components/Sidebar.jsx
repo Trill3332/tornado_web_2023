@@ -6,7 +6,7 @@ const Sidebar = () => {
 
     const [toggleOne, setToggleOne] = useState(false)
     const [toggleTwo, setToggleTwo] = useState(false)
-    const [activeLifestyle, setActiveLifestyle] = useState(0)
+    const [activeLifestyle, setActiveLifestyle] = useState(-1)
     const [activeSport, setActiveSport] = useState(0)
 
     return (

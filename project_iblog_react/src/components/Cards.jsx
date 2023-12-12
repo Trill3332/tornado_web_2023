@@ -64,8 +64,8 @@ function Cards({ searchTerm }) {
   
 
   return (
-    <div className="flex gap-[22px] mt-[5px] mb-[5px] relative">
-      <div className="flex w-[986px] flex-wrap">
+    <div className="flex gap-[22px] mt-[5px] mb-[5px] relative p-[48px]">
+      <div className="flex w-[986px] flex-wrap gap-[22px]">
         {cards}
       </div>
       <div className="slider flex w-[986px] h-[52px] justify-between items-center absolute bottom-[50%] shadow-[0px_4px_20px_0px_rgba(0,0,0,0.15)">
