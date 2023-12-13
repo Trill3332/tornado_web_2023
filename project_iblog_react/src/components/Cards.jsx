@@ -32,6 +32,7 @@ function Cards({ searchTerm }) {
     authorImg: profiles[index]?.authorImg || "default-image-url.jpg",
     initialLikes: profiles[index]?.initialLikes || 0,
     name: profiles[index]?.name,
+    cardDate:profiles[index]?.cardDate,
   }));
 
   const filteredCards = profileState.filter((article) => {
@@ -54,7 +55,7 @@ function Cards({ searchTerm }) {
         name={dynamicProfiles[index]?.name}
         authorImg={dynamicProfiles[index]?.authorImg}
         title={article.title}
-        cardDate={article.publishedAt}
+        cardDate={dynamicProfiles[index]?.cardDate}
         initialLikes={dynamicProfiles[index]?.initialLikes}
         description={article.description}
         content={article.content}
