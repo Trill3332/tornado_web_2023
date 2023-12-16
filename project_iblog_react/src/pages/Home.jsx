@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CategoryHome from '../components/Categories/CategoryHome'
 import Cards from '../components/Cards'
-
+import { Outlet } from 'react-router-dom'
 
 const Home = () => {
    
@@ -13,8 +13,9 @@ const Home = () => {
             <Sidebar />
             <div>
                 <Header />
-                <CategoryHome />
-                <Cards />
+                <div>
+                    <Outlet />
+                </div>
                 <Footer />
             </div>
         </div>
